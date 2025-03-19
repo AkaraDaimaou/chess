@@ -1,0 +1,7 @@
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+axum = "0.6"
+serde = { version = "1", features = ["derive"] }
+sqlx = { version = "0.7", features = ["postgres", "runtime-tokio"] }
+jsonwebtoken = "9.1"
+chess = "3.2.0" # Rust chess move validation
