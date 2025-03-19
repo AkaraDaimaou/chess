@@ -5,19 +5,26 @@ use axum::{
     Router,
 };
 use std::net::SocketAddr;
-use tokio::sync::broadcast;
+use std::sync::Mutex;
+use lazy_static::lazy_static;
+use chess::Game;
+
+lazy_static! {
+    static ref GAME: Mutex<Game> = Mutex::new(Game::new());
+}
 
 async fn websocket_handler(ws: WebSocketUpgrade) -> impl IntoResponse {
     ws.on_upgrade(handle_socket)
 }
 
 async fn handle_socket(mut socket: WebSocket) {
-    let (tx, mut rx) = broadcast::channel::<String>(10);
-
     while let Some(Ok(msg)) = socket.recv().await {
         if let Message::Text(text) = msg {
-            tx.send(text.clone()).unwrap();
-            socket.send(Message::Text(format!("Received: {}", text))).await.unwrap();
+            let mut game = GAME.lock().unwrap();
+            match game.make_move(&text) {
+                Ok(_) => socket.send(Message::Text(game.get_board())).await.unwrap(),
+                Err(err) => socket.send(Message::Text(err)).await.unwrap(),
+            }
         }
     }
 }
