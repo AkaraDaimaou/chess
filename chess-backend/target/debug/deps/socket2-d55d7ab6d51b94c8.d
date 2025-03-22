@@ -1,0 +1,11 @@
+/mnt/c/Users/veer/Documents/GitHub/chess/chess-backend/target/debug/deps/libsocket2-d55d7ab6d51b94c8.rmeta: /home/akara01/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.5.8/src/lib.rs /home/akara01/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.5.8/src/sockaddr.rs /home/akara01/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.5.8/src/socket.rs /home/akara01/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.5.8/src/sockref.rs /home/akara01/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.5.8/src/sys/unix.rs
+
+/mnt/c/Users/veer/Documents/GitHub/chess/chess-backend/target/debug/deps/libsocket2-d55d7ab6d51b94c8.rlib: /home/akara01/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.5.8/src/lib.rs /home/akara01/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.5.8/src/sockaddr.rs /home/akara01/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.5.8/src/socket.rs /home/akara01/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.5.8/src/sockref.rs /home/akara01/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.5.8/src/sys/unix.rs
+
+/mnt/c/Users/veer/Documents/GitHub/chess/chess-backend/target/debug/deps/socket2-d55d7ab6d51b94c8.d: /home/akara01/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.5.8/src/lib.rs /home/akara01/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.5.8/src/sockaddr.rs /home/akara01/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.5.8/src/socket.rs /home/akara01/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.5.8/src/sockref.rs /home/akara01/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.5.8/src/sys/unix.rs
+
+/home/akara01/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.5.8/src/lib.rs:
+/home/akara01/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.5.8/src/sockaddr.rs:
+/home/akara01/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.5.8/src/socket.rs:
+/home/akara01/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.5.8/src/sockref.rs:
+/home/akara01/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/socket2-0.5.8/src/sys/unix.rs:
